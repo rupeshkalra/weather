@@ -12,8 +12,9 @@ function App() {
    fetch(`http://api.weatherapi.com/v1/current.json?key=46c6694771ae42f0ab090152200212&q=${city}`)
   .then( res => res.json())
   .then(function(data){
+    console.log(data);
   setState({
-    temp:data.current.temp_c
+    temp:data
   })
   });
 
