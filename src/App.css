@@ -3,23 +3,17 @@
   border-style: solid;
   border-color: black;
   border-radius: 15px;
-  margin-left: 500px;
-  margin-right: 500px;
-  margin-top: 50px;
-  padding: 10px;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 10vh;
+  padding: 3vmin;
+  background-color: rgb(159, 200, 219);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.data{
+  margin-top: 5vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/* 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -29,17 +23,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+} */
