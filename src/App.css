@@ -1,14 +1,15 @@
 .App {
   text-align: center;
-  border-style: solid;
-  border-color: black;
-  border-radius: 15px;
   margin-left: 15vw;
   margin-right: 15vw;
   margin-top: 10vh;
+  border-style: double;
+  border-radius: 12px;
+  border-color: black ;
   padding: 3vmin;
   background-color: rgb(159, 200, 219);
 }
+
 
 .data{
   margin-top: 5vh;
