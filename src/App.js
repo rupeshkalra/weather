@@ -15,7 +15,7 @@ function App() {
     e.preventDefault();
   const city = e.target.elements.city.value
   // const city=va;
-   fetch(`http://api.weatherapi.com/v1/current.json?key=46c6694771ae42f0ab090152200212&q=${city}`)
+   fetch(`https://api.weatherapi.com/v1/current.json?key=46c6694771ae42f0ab090152200212&q=${city}`)
    .then(res => {
     resStatus = res.status
     return res
