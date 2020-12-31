@@ -14,15 +14,14 @@ function App() {
   function get(e){
     e.preventDefault();
   const city = e.target.elements.city.value
-  // const city=va;
-   fetch(`https://api.weatherapi.com/v1/current.json?key=46c6694771ae42f0ab090152200212&q=${city}`)
+  const ke=process.env.REACT_APP_KEY;
+   fetch(`https://api.weatherapi.com/v1/current.json?key=${ke}&q=${city}`)
    .then(res => {
     resStatus = res.status
     return res
   })
   .then( res => res.json())
   .then(function(data){
-    console.log(data);
   setState({
     temp:data,
     result:resStatus,
